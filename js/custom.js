@@ -9,18 +9,18 @@ window.onload = function () {
 
 
     done.onclick = function(){
-        // console.log(name.value);
-        // console.log(roll.value);
-        // console.log(course.value);
-        // console.log(amt.value);
-        // console.log(mode.value);
-        // console.log(date.value);
-        document.getElementById("stu-name").innerText = name.value;
-        document.getElementById("stu-roll").innerText = roll.value;
-        document.getElementById("stu-course").innerText = course.value;
-        document.getElementById("stu-amt").innerText = amt.value;
-        document.getElementById("stu-mode").innerText = mode.value;
-        document.getElementById("stu-date").innerText = date.value;
+        console.log(name.value);
+        console.log(roll.value);
+        console.log(course.value);
+        console.log(amt.value);
+        console.log(mode.value);
+        console.log(date.value);
+        document.getElementsByClassName("stu-name").innerText = name.value;
+        document.getElementsByClassName("stu-roll").innerText = roll.value;
+        document.getElementsByClassName("stu-course").innerText = course.value;
+        document.getElementsByClassName("stu-amt").innerText = amt.value;
+        document.getElementsByClassName("stu-mode").innerText = mode.value;
+        document.getElementsByClassName("stu-date").innerText = date.value;
 
 
 
